@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ROSE BUD ACADEMY WEB</title>
+    <style>.blink {
+        animation: blinker 1.5s linear infinite;
+        color:blue;
+        font-family: sans-serif;
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }</style><marquee class="blink"> LET THE CHILDREN LIVE,LEARN AND LEAD</marquee>
+    </body>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body >
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" width="150" height="150"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="">HOME</a></li>
+                    <li> <a href="">ABOUT</a></li>
+                    <li> <a href="">COURSE</a></li>
+                    <li> <a href="">BLOG</a></li>
+                    <li> <a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+<div class="text-box">
+    <h1>ROSE    BUD    ACADEMY</h1>
+    <h2>Siyari's best school.</h2>
+    <p>Entrust us with your children for their bright future.<br>Quality education is our assurance</p>
+    <a href="" class="hero-btn">Visit us to know more.</a>
+</div>
+
+</section>
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>ENGLISH,SCIENCE,MATHS,COMPUTER SCIENCE</p>
+
+    <div class="row">
+     <div class="course-col">
+        <h3>PRE-PRIMARY</h3>
+        <p>Science-Social-Maths-English-Nepali</p>
+     </div>
+     
+    
+        <div class="course-col">
+           <h3>PRIMARY</h3>
+           <p>Science-Social-Maths-English-Nepali-Computer-Dance/G.K.</p>
+        </div>
+        
+    
+        <div class="course-col">
+           <h3>SECONDARY</h3>
+           <p>Science-Social-Maths-English-Nepali-Computer-Opt.Maths/Population</p>
+        </div>
+
+
+    </div>
+</section>
+<section class="location">
+    <h1> Our Location</h1>
+     <div class="row">
+        <div class="location-col">
+            <img src="images/images (1).jpg">
+       
+       <div class="layer">
+        <h3>AMUWA</h3>
+       </div> </div>
+     </div>
+
+</section>
+<section class="facilities">
+    <h1>Our facilities<h1>
+    <div class="row">
+<div class="facilities-col">
+    <img src="images/lab.jpg">
+    <h3>Computer lab </h3>
+    </div>
+    <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>Renowed library</h3>
+    </div>
+    <div class="facilities-col">
+            <img src="images/cafeteria.png">
+            <h3>Canteen</h3>
+            
+
+</div>
+    </div>
+
+</section>
+<section class="Achievements">
+<h1>ACHIEVEMENTS</h1>
+<div class="row"> 
+    <div class="Achievements-col">
+        <img src="images/imgsrc.jpg">
+    </div>
+    <div class="Achievements-col">
+        <img src="images/abh.jpeg">
+        
+    </div>
+    
+
+</div>
+
+
+</section>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+navLinks.style.right ="0";          
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px"
+        }
+    </script>
+    
+</body>
+</html>
